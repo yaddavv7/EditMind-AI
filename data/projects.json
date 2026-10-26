@@ -1,0 +1,1139 @@
+{
+  "test_proj": {
+    "id": "test_proj",
+    "name": "Test Video Project",
+    "description": "Unit test project",
+    "aspectRatio": "9:16",
+    "targetDuration": 20,
+    "pacing": "fast",
+    "captionStyle": "bold_pop",
+    "captionLanguage": "en",
+    "colorGrade": "warm_cinematic",
+    "musicVolume": 0.7,
+    "audioDucking": true,
+    "activeDirection": "story",
+    "promptText": "Create a fast-paced travel reel",
+    "status": "ready",
+    "createdAt": "2026-10-26T01:04:08.061Z",
+    "updatedAt": "2026-10-26T01:04:08.092Z",
+    "assets": [
+      {
+        "id": "clip_sunset_1",
+        "projectId": "test_proj",
+        "filename": "sunset_cliff.mp4",
+        "originalName": "Sunset Cliff Vista.mp4",
+        "filePath": "/uploads/sunset_cliff.mp4",
+        "url": "/uploads/sunset_cliff.mp4",
+        "thumbnailUrl": "/uploads/sunset_thumb.jpg",
+        "duration": 6,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "aspectRatio": "16:9",
+        "hasAudio": true,
+        "sizeBytes": 2048000,
+        "createdAt": "2026-10-26T01:04:08.060Z"
+      },
+      {
+        "id": "clip_creator_2",
+        "projectId": "test_proj",
+        "filename": "creator_vlog.mp4",
+        "originalName": "Creator Vlog Introduction.mp4",
+        "filePath": "/uploads/creator_vlog.mp4",
+        "url": "/uploads/creator_vlog.mp4",
+        "thumbnailUrl": "/uploads/creator_thumb.jpg",
+        "duration": 8,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "aspectRatio": "9:16",
+        "hasAudio": true,
+        "sizeBytes": 3048000,
+        "createdAt": "2026-10-26T01:04:08.061Z"
+      }
+    ],
+    "directions": {
+      "story": {
+        "version": 1,
+        "direction": "story",
+        "title": "Story",
+        "description": "",
+        "aspectRatio": "9:16",
+        "targetDuration": 20,
+        "totalDuration": 10,
+        "colorGrade": "warm_cinematic",
+        "timeline": {
+          "clips": [],
+          "audioTracks": [],
+          "captions": []
+        },
+        "exportProfile": "standard",
+        "updatedAt": "2026-10-26T01:04:08.061Z"
+      },
+      "hype": {
+        "version": 1,
+        "direction": "hype",
+        "title": "Hype",
+        "description": "",
+        "aspectRatio": "9:16",
+        "targetDuration": 20,
+        "totalDuration": 10,
+        "colorGrade": "vibrant",
+        "timeline": {
+          "clips": [],
+          "audioTracks": [],
+          "captions": []
+        },
+        "exportProfile": "standard",
+        "updatedAt": "2026-10-26T01:04:08.061Z"
+      },
+      "clean": {
+        "version": 1,
+        "direction": "clean",
+        "title": "Clean",
+        "description": "",
+        "aspectRatio": "9:16",
+        "targetDuration": 20,
+        "totalDuration": 10,
+        "colorGrade": "natural",
+        "timeline": {
+          "clips": [],
+          "audioTracks": [],
+          "captions": []
+        },
+        "exportProfile": "standard",
+        "updatedAt": "2026-10-26T01:04:08.061Z"
+      }
+    },
+    "versions": []
+  },
+  "proj_demo_bali_travel": {
+    "id": "proj_demo_bali_travel",
+    "name": "Bali Travel Reel & Cinematic Memories (Demo)",
+    "description": "Sample project with 4 pre-analyzed raw clips and extracted Reference DNA ready to edit.",
+    "aspectRatio": "9:16",
+    "targetDuration": 20,
+    "pacing": "fast",
+    "captionStyle": "bold_pop",
+    "captionLanguage": "en",
+    "colorGrade": "warm_cinematic",
+    "musicVolume": 0.7,
+    "audioDucking": true,
+    "activeDirection": "story",
+    "promptText": "Create a 20-second cinematic travel Reel from my clips. Start with an eye-catching horizon hook, use snappy transitions, warm colors, and clean beat-synced cuts.",
+    "selectedPresetId": "instagram-reel",
+    "status": "ready",
+    "createdAt": "2026-10-26T00:59:26.420Z",
+    "updatedAt": "2026-10-26T01:07:33.817Z",
+    "assets": [
+      {
+        "id": "demo_asset_1",
+        "projectId": "proj_demo_bali_travel",
+        "filename": "demo-sunset-cliff.mp4",
+        "originalName": "Sunset Cliff Vista (Raw Footage).mp4",
+        "filePath": "/uploads/demo-sunset-cliff.mp4",
+        "url": "/uploads/demo-sunset-cliff.mp4",
+        "thumbnailUrl": "/uploads/demo-sunset-cliff.jpg",
+        "duration": 6,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "aspectRatio": "16:9",
+        "hasAudio": true,
+        "sizeBytes": 2097152,
+        "createdAt": "2026-10-26T00:59:25.302Z",
+        "intelligence": {
+          "duration": 6,
+          "width": 1920,
+          "height": 1080,
+          "fps": 30,
+          "hasAudio": true,
+          "scenes": [
+            {
+              "id": "scene_1_0",
+              "inTime": 0,
+              "outTime": 3,
+              "label": "Golden Hour Establishing Shot",
+              "score": 95,
+              "tags": [
+                "sunset",
+                "landscape",
+                "warm",
+                "nature",
+                "outdoor",
+                "golden_hour"
+              ],
+              "isHighlight": true,
+              "thumbnailTime": 0.5
+            },
+            {
+              "id": "scene_2_30",
+              "inTime": 3,
+              "outTime": 6,
+              "label": "Sunset Horizon Panorama",
+              "score": 82,
+              "tags": [
+                "sunset",
+                "landscape",
+                "warm",
+                "nature",
+                "outdoor",
+                "golden_hour"
+              ],
+              "isHighlight": false,
+              "thumbnailTime": 3.5
+            }
+          ],
+          "tags": [
+            "sunset",
+            "landscape",
+            "warm",
+            "nature",
+            "outdoor",
+            "golden_hour"
+          ],
+          "transcript": [
+            {
+              "start": 0.5,
+              "end": 2,
+              "text": "[Ambient room tone]",
+              "confidence": 0.9
+            },
+            {
+              "start": 2.5,
+              "end": 4.5,
+              "text": "[Natural breeze & atmosphere]",
+              "confidence": 0.92
+            }
+          ],
+          "quality": {
+            "blurScore": 88,
+            "exposure": "good",
+            "audioClarity": "clean",
+            "warnings": []
+          },
+          "suggestedUse": "intro",
+          "summary": "1920x1080 6s footage with 2 detectable scene segments and high visual clarity."
+        }
+      },
+      {
+        "id": "demo_asset_2",
+        "projectId": "proj_demo_bali_travel",
+        "filename": "demo-beach-drone.mp4",
+        "originalName": "Azure Ocean Waves Aerial.mp4",
+        "filePath": "/uploads/demo-beach-drone.mp4",
+        "url": "/uploads/demo-beach-drone.mp4",
+        "thumbnailUrl": "/uploads/demo-beach-drone.jpg",
+        "duration": 6,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "aspectRatio": "16:9",
+        "hasAudio": true,
+        "sizeBytes": 2097152,
+        "createdAt": "2026-10-26T00:59:25.303Z",
+        "intelligence": {
+          "duration": 6,
+          "width": 1920,
+          "height": 1080,
+          "fps": 30,
+          "hasAudio": true,
+          "scenes": [
+            {
+              "id": "scene_1_0",
+              "inTime": 0,
+              "outTime": 3,
+              "label": "Aerial Beach Flyover",
+              "score": 82,
+              "tags": [
+                "beach",
+                "drone",
+                "water",
+                "landscape",
+                "blue_water",
+                "travel"
+              ],
+              "isHighlight": false,
+              "thumbnailTime": 0.5
+            },
+            {
+              "id": "scene_2_30",
+              "inTime": 3,
+              "outTime": 6,
+              "label": "Ocean Surf Crest",
+              "score": 95,
+              "tags": [
+                "beach",
+                "drone",
+                "water",
+                "landscape",
+                "blue_water",
+                "travel"
+              ],
+              "isHighlight": true,
+              "thumbnailTime": 3.5
+            }
+          ],
+          "tags": [
+            "beach",
+            "drone",
+            "water",
+            "landscape",
+            "blue_water",
+            "travel"
+          ],
+          "transcript": [
+            {
+              "start": 0.5,
+              "end": 2,
+              "text": "[Ambient room tone]",
+              "confidence": 0.9
+            },
+            {
+              "start": 2.5,
+              "end": 4.5,
+              "text": "[Natural breeze & atmosphere]",
+              "confidence": 0.92
+            }
+          ],
+          "quality": {
+            "blurScore": 88,
+            "exposure": "good",
+            "audioClarity": "clean",
+            "warnings": []
+          },
+          "suggestedUse": "b-roll",
+          "summary": "1920x1080 6s footage with 2 detectable scene segments and high visual clarity."
+        }
+      },
+      {
+        "id": "demo_asset_3",
+        "projectId": "proj_demo_bali_travel",
+        "filename": "demo-city-lights.mp4",
+        "originalName": "Downtown Neon Lights & Traffic.mp4",
+        "filePath": "/uploads/demo-city-lights.mp4",
+        "url": "/uploads/demo-city-lights.mp4",
+        "thumbnailUrl": "/uploads/demo-city-lights.jpg",
+        "duration": 6,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "aspectRatio": "16:9",
+        "hasAudio": true,
+        "sizeBytes": 2097152,
+        "createdAt": "2026-10-26T00:59:25.303Z",
+        "intelligence": {
+          "duration": 6,
+          "width": 1920,
+          "height": 1080,
+          "fps": 30,
+          "hasAudio": true,
+          "scenes": [
+            {
+              "id": "scene_1_0",
+              "inTime": 0,
+              "outTime": 3,
+              "label": "Neon Street Architecture",
+              "score": 95,
+              "tags": [
+                "city",
+                "night",
+                "neon",
+                "architecture",
+                "modern",
+                "cyberpunk"
+              ],
+              "isHighlight": true,
+              "thumbnailTime": 0.5
+            },
+            {
+              "id": "scene_2_30",
+              "inTime": 3,
+              "outTime": 6,
+              "label": "Night Traffic Glow",
+              "score": 95,
+              "tags": [
+                "city",
+                "night",
+                "neon",
+                "architecture",
+                "modern",
+                "cyberpunk"
+              ],
+              "isHighlight": true,
+              "thumbnailTime": 3.5
+            }
+          ],
+          "tags": [
+            "city",
+            "night",
+            "neon",
+            "architecture",
+            "modern",
+            "cyberpunk"
+          ],
+          "transcript": [
+            {
+              "start": 0.5,
+              "end": 2,
+              "text": "[Ambient room tone]",
+              "confidence": 0.9
+            },
+            {
+              "start": 2.5,
+              "end": 4.5,
+              "text": "[Natural breeze & atmosphere]",
+              "confidence": 0.92
+            }
+          ],
+          "quality": {
+            "blurScore": 88,
+            "exposure": "good",
+            "audioClarity": "clean",
+            "warnings": []
+          },
+          "suggestedUse": "highlight",
+          "summary": "1920x1080 6s footage with 2 detectable scene segments and high visual clarity."
+        }
+      },
+      {
+        "id": "demo_asset_4",
+        "projectId": "proj_demo_bali_travel",
+        "filename": "demo-talking-creator.mp4",
+        "originalName": "Creator Vlog Introduction (Portrait).mp4",
+        "filePath": "/uploads/demo-talking-creator.mp4",
+        "url": "/uploads/demo-talking-creator.mp4",
+        "thumbnailUrl": "/uploads/demo-talking-creator.jpg",
+        "duration": 8,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "aspectRatio": "9:16",
+        "hasAudio": true,
+        "sizeBytes": 2097152,
+        "createdAt": "2026-10-26T00:59:25.303Z",
+        "intelligence": {
+          "duration": 8,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "hasAudio": true,
+          "scenes": [
+            {
+              "id": "scene_1_0",
+              "inTime": 0,
+              "outTime": 3,
+              "label": "Engaging On-Camera Greeting",
+              "score": 95,
+              "tags": [
+                "person",
+                "creator",
+                "face",
+                "talking_head",
+                "dialogue",
+                "indoor"
+              ],
+              "isHighlight": true,
+              "thumbnailTime": 0.5
+            },
+            {
+              "id": "scene_2_30",
+              "inTime": 3,
+              "outTime": 6,
+              "label": "Key Talking Point Explanation",
+              "score": 82,
+              "tags": [
+                "person",
+                "creator",
+                "face",
+                "talking_head",
+                "dialogue",
+                "indoor"
+              ],
+              "isHighlight": false,
+              "thumbnailTime": 3.5
+            },
+            {
+              "id": "scene_3_60",
+              "inTime": 6,
+              "outTime": 8,
+              "label": "Key Talking Point Explanation",
+              "score": 82,
+              "tags": [
+                "person",
+                "creator",
+                "face",
+                "talking_head",
+                "dialogue",
+                "indoor"
+              ],
+              "isHighlight": false,
+              "thumbnailTime": 6.5
+            }
+          ],
+          "tags": [
+            "person",
+            "creator",
+            "face",
+            "talking_head",
+            "dialogue",
+            "indoor"
+          ],
+          "transcript": [
+            {
+              "start": 0.2,
+              "end": 1,
+              "text": "Welcome",
+              "confidence": 0.98
+            },
+            {
+              "start": 1.1,
+              "end": 1.8,
+              "text": "back",
+              "confidence": 0.97
+            },
+            {
+              "start": 1.9,
+              "end": 2.7,
+              "text": "everyone!",
+              "confidence": 0.99
+            },
+            {
+              "start": 3,
+              "end": 4.2,
+              "text": "Today we are crafting something",
+              "confidence": 0.95
+            },
+            {
+              "start": 4.3,
+              "end": 5.5,
+              "text": "completely breathtaking with AI.",
+              "confidence": 0.96
+            }
+          ],
+          "quality": {
+            "blurScore": 88,
+            "exposure": "good",
+            "audioClarity": "clean",
+            "warnings": []
+          },
+          "suggestedUse": "hook",
+          "summary": "1080x1920 8s footage with 3 detectable scene segments and high visual clarity."
+        }
+      }
+    ],
+    "referenceAsset": {
+      "id": "ref_demo_1",
+      "projectId": "proj_demo_bali_travel",
+      "filename": "demo-reference-reel.mp4",
+      "originalName": "Viral Travel Reel Reference (9:16).mp4",
+      "url": "/uploads/demo-reference-reel.mp4",
+      "dna": {
+        "styleName": "High-Energy Social Reel",
+        "averageShotDuration": 1.8,
+        "cutFrequency": "rapid",
+        "pacing": "fast",
+        "transitionStyle": "hard_cut",
+        "captionStyle": "bold_pop",
+        "captionPosition": "center",
+        "colorMood": "vibrant",
+        "preferredAspectRatio": "9:16",
+        "shotDurationTarget": 1.6,
+        "musicEnergy": "high",
+        "confidenceScore": 92,
+        "detectedRules": [
+          "Detected canvas format: 1080x1920 (9:16) at 30 FPS",
+          "Audio track identified: Stereo master track present",
+          "Average shot duration estimated at 1.8s with rapid cut pacing",
+          "Recommended transition behavior: hard_cut with bold_pop caption styling",
+          "Color grading signature: vibrant"
+        ]
+      },
+      "createdAt": "2026-10-26T00:59:26.420Z"
+    },
+    "directions": {
+      "story": {
+        "version": 2,
+        "direction": "story",
+        "title": "Narrative Journey (Story)",
+        "description": "Emotional arc with deliberate pacing, gentle dissolves, and atmospheric soundtrack.",
+        "aspectRatio": "9:16",
+        "targetDuration": 20,
+        "totalDuration": 12.6,
+        "colorGrade": "warm_cinematic",
+        "timeline": {
+          "clips": [
+            {
+              "id": "story_clip_1",
+              "sourceAssetId": "demo_asset_4",
+              "sourceIn": 0,
+              "sourceOut": 2.1,
+              "duration": 2.1,
+              "order": 0,
+              "speed": 1,
+              "volume": 1,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0.6
+              }
+            },
+            {
+              "id": "story_clip_2",
+              "sourceAssetId": "demo_asset_1",
+              "sourceIn": 0,
+              "sourceOut": 3.5,
+              "duration": 3.5,
+              "order": 1,
+              "speed": 1,
+              "volume": 1,
+              "transitionIn": {
+                "type": "dissolve",
+                "duration": 0.6
+              }
+            },
+            {
+              "id": "story_clip_3",
+              "sourceAssetId": "demo_asset_2",
+              "sourceIn": 0,
+              "sourceOut": 3.5,
+              "duration": 3.5,
+              "order": 2,
+              "speed": 1,
+              "volume": 1,
+              "transitionIn": {
+                "type": "dissolve",
+                "duration": 0.6
+              }
+            },
+            {
+              "id": "story_clip_4",
+              "sourceAssetId": "demo_asset_3",
+              "sourceIn": 0,
+              "sourceOut": 3.5,
+              "duration": 3.5,
+              "order": 3,
+              "speed": 1,
+              "volume": 1,
+              "transitionIn": {
+                "type": "dissolve",
+                "duration": 0.6
+              }
+            }
+          ],
+          "audioTracks": [
+            {
+              "id": "audio-ambient-cinematic",
+              "type": "music",
+              "title": "Ethereal Horizons (Cinematic Ambient)",
+              "sourceUrl": "/audio/ambient-cinematic.mp3",
+              "startTime": 0,
+              "duration": 14,
+              "volume": 0.55,
+              "ducking": true
+            }
+          ],
+          "captions": [
+            {
+              "id": "cap_en_1",
+              "start": 0.8,
+              "end": 4,
+              "text": "Every great journey begins with a moment.",
+              "style": "cinema",
+              "language": "en"
+            },
+            {
+              "id": "cap_en_2",
+              "start": 4.5,
+              "end": 8.5,
+              "text": "Preserving memories that truly endure.",
+              "style": "cinema",
+              "language": "en"
+            }
+          ]
+        },
+        "exportProfile": "standard",
+        "updatedAt": "2026-10-26T01:07:33.817Z"
+      },
+      "hype": {
+        "version": 1,
+        "direction": "hype",
+        "title": "Fast-Paced Hook (Hype)",
+        "description": "Rapid 1.5s cuts timed to peak energy, high saturation, and bold center pop captions.",
+        "aspectRatio": "9:16",
+        "targetDuration": 20,
+        "totalDuration": 12.8,
+        "colorGrade": "vibrant",
+        "timeline": {
+          "clips": [
+            {
+              "id": "hype_clip_1",
+              "sourceAssetId": "demo_asset_3",
+              "sourceIn": 0,
+              "sourceOut": 1.6,
+              "duration": 1.6,
+              "order": 0,
+              "speed": 1,
+              "volume": 0.8,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "hype_clip_2",
+              "sourceAssetId": "demo_asset_1",
+              "sourceIn": 1.5,
+              "sourceOut": 3.1,
+              "duration": 1.6,
+              "order": 1,
+              "speed": 1,
+              "volume": 0.8,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "hype_clip_3",
+              "sourceAssetId": "demo_asset_2",
+              "sourceIn": 3,
+              "sourceOut": 4.6,
+              "duration": 1.6,
+              "order": 2,
+              "speed": 1,
+              "volume": 0.8,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "hype_clip_4",
+              "sourceAssetId": "demo_asset_4",
+              "sourceIn": 4.5,
+              "sourceOut": 6.1,
+              "duration": 1.6,
+              "order": 3,
+              "speed": 1,
+              "volume": 0.8,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "hype_clip_5",
+              "sourceAssetId": "demo_asset_3",
+              "sourceIn": 1.6,
+              "sourceOut": 3.2,
+              "duration": 1.6,
+              "order": 4,
+              "speed": 1,
+              "volume": 0.8,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "hype_clip_6",
+              "sourceAssetId": "demo_asset_1",
+              "sourceIn": 3.1,
+              "sourceOut": 4.7,
+              "duration": 1.6,
+              "order": 5,
+              "speed": 1,
+              "volume": 0.8,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "hype_clip_7",
+              "sourceAssetId": "demo_asset_2",
+              "sourceIn": 0.2,
+              "sourceOut": 1.8,
+              "duration": 1.6,
+              "order": 6,
+              "speed": 1,
+              "volume": 0.8,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "hype_clip_8",
+              "sourceAssetId": "demo_asset_4",
+              "sourceIn": 4.1,
+              "sourceOut": 5.7,
+              "duration": 1.6,
+              "order": 7,
+              "speed": 1,
+              "volume": 0.8,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            }
+          ],
+          "audioTracks": [
+            {
+              "id": "audio-future-bass",
+              "type": "music",
+              "title": "Neon Pulse (Future Bass Energy)",
+              "sourceUrl": "/audio/future-bass.mp3",
+              "startTime": 0,
+              "duration": 12.799999999999999,
+              "volume": 0.8,
+              "ducking": false
+            }
+          ],
+          "captions": [
+            {
+              "id": "cap_en_1",
+              "start": 0.2,
+              "end": 2.2,
+              "text": "STOP SCROLLING: LOOK AT THIS",
+              "style": "bold_pop",
+              "language": "en"
+            },
+            {
+              "id": "cap_en_2",
+              "start": 2.5,
+              "end": 5.5,
+              "text": "Engineered for pure energy & impact.",
+              "style": "bold_pop",
+              "language": "en"
+            }
+          ]
+        },
+        "exportProfile": "standard",
+        "updatedAt": "2026-10-26T00:59:26.421Z"
+      },
+      "clean": {
+        "version": 1,
+        "direction": "clean",
+        "title": "Minimal Studio (Clean)",
+        "description": "Restrained, professional styling with natural color tones and clean cutaways.",
+        "aspectRatio": "9:16",
+        "targetDuration": 20,
+        "totalDuration": 10.4,
+        "colorGrade": "natural",
+        "timeline": {
+          "clips": [
+            {
+              "id": "clean_clip_1",
+              "sourceAssetId": "demo_asset_1",
+              "sourceIn": 0.5,
+              "sourceOut": 3.1,
+              "duration": 2.6,
+              "order": 0,
+              "speed": 1,
+              "volume": 1,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "clean_clip_2",
+              "sourceAssetId": "demo_asset_2",
+              "sourceIn": 0.5,
+              "sourceOut": 3.1,
+              "duration": 2.6,
+              "order": 1,
+              "speed": 1,
+              "volume": 1,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "clean_clip_3",
+              "sourceAssetId": "demo_asset_3",
+              "sourceIn": 0.5,
+              "sourceOut": 3.1,
+              "duration": 2.6,
+              "order": 2,
+              "speed": 1,
+              "volume": 1,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            },
+            {
+              "id": "clean_clip_4",
+              "sourceAssetId": "demo_asset_4",
+              "sourceIn": 0.5,
+              "sourceOut": 3.1,
+              "duration": 2.6,
+              "order": 3,
+              "speed": 1,
+              "volume": 1,
+              "transitionIn": {
+                "type": "cut",
+                "duration": 0
+              }
+            }
+          ],
+          "audioTracks": [
+            {
+              "id": "audio-acoustic-warmth",
+              "type": "music",
+              "title": "Memories & Sun (Warm Acoustic)",
+              "sourceUrl": "/audio/acoustic-warmth.mp3",
+              "startTime": 0,
+              "duration": 10.4,
+              "volume": 0.5,
+              "ducking": true
+            }
+          ],
+          "captions": [
+            {
+              "id": "cap_en_1",
+              "start": 0.5,
+              "end": 3.5,
+              "text": "Curated moments, refined to essentials.",
+              "style": "minimal",
+              "language": "en"
+            },
+            {
+              "id": "cap_en_2",
+              "start": 4,
+              "end": 7,
+              "text": "Polished studio visual standards.",
+              "style": "minimal",
+              "language": "en"
+            }
+          ]
+        },
+        "exportProfile": "standard",
+        "updatedAt": "2026-10-26T00:59:26.421Z"
+      }
+    },
+    "versions": [
+      {
+        "id": "ver_1792976853817",
+        "versionNumber": 2,
+        "title": "Accelerated intro shot",
+        "changeSummary": "I accelerated the intro hook by trimming your first shot from 3.5s to 2.1s for immediate viewer engagement.",
+        "createdAt": "2026-10-26T01:07:33.817Z",
+        "edl": {
+          "version": 2,
+          "direction": "story",
+          "title": "Narrative Journey (Story)",
+          "description": "Emotional arc with deliberate pacing, gentle dissolves, and atmospheric soundtrack.",
+          "aspectRatio": "9:16",
+          "targetDuration": 20,
+          "totalDuration": 12.6,
+          "colorGrade": "warm_cinematic",
+          "timeline": {
+            "clips": [
+              {
+                "id": "story_clip_1",
+                "sourceAssetId": "demo_asset_4",
+                "sourceIn": 0,
+                "sourceOut": 2.1,
+                "duration": 2.1,
+                "order": 0,
+                "speed": 1,
+                "volume": 1,
+                "transitionIn": {
+                  "type": "cut",
+                  "duration": 0.6
+                }
+              },
+              {
+                "id": "story_clip_2",
+                "sourceAssetId": "demo_asset_1",
+                "sourceIn": 0,
+                "sourceOut": 3.5,
+                "duration": 3.5,
+                "order": 1,
+                "speed": 1,
+                "volume": 1,
+                "transitionIn": {
+                  "type": "dissolve",
+                  "duration": 0.6
+                }
+              },
+              {
+                "id": "story_clip_3",
+                "sourceAssetId": "demo_asset_2",
+                "sourceIn": 0,
+                "sourceOut": 3.5,
+                "duration": 3.5,
+                "order": 2,
+                "speed": 1,
+                "volume": 1,
+                "transitionIn": {
+                  "type": "dissolve",
+                  "duration": 0.6
+                }
+              },
+              {
+                "id": "story_clip_4",
+                "sourceAssetId": "demo_asset_3",
+                "sourceIn": 0,
+                "sourceOut": 3.5,
+                "duration": 3.5,
+                "order": 3,
+                "speed": 1,
+                "volume": 1,
+                "transitionIn": {
+                  "type": "dissolve",
+                  "duration": 0.6
+                }
+              }
+            ],
+            "audioTracks": [
+              {
+                "id": "audio-ambient-cinematic",
+                "type": "music",
+                "title": "Ethereal Horizons (Cinematic Ambient)",
+                "sourceUrl": "/audio/ambient-cinematic.mp3",
+                "startTime": 0,
+                "duration": 14,
+                "volume": 0.55,
+                "ducking": true
+              }
+            ],
+            "captions": [
+              {
+                "id": "cap_en_1",
+                "start": 0.8,
+                "end": 4,
+                "text": "Every great journey begins with a moment.",
+                "style": "cinema",
+                "language": "en"
+              },
+              {
+                "id": "cap_en_2",
+                "start": 4.5,
+                "end": 8.5,
+                "text": "Preserving memories that truly endure.",
+                "style": "cinema",
+                "language": "en"
+              }
+            ]
+          },
+          "exportProfile": "standard",
+          "updatedAt": "2026-10-26T01:07:33.817Z"
+        }
+      },
+      {
+        "id": "ver_1792976366425",
+        "versionNumber": 1,
+        "title": "Initial Demo Setup",
+        "changeSummary": "Loaded 4 sample clips, extracted Reference DNA, and synthesized 3 creative directions.",
+        "createdAt": "2026-10-26T00:59:26.425Z",
+        "edl": {
+          "version": 1,
+          "direction": "story",
+          "title": "Narrative Journey (Story)",
+          "description": "Emotional arc with deliberate pacing, gentle dissolves, and atmospheric soundtrack.",
+          "aspectRatio": "9:16",
+          "targetDuration": 20,
+          "totalDuration": 14,
+          "colorGrade": "warm_cinematic",
+          "timeline": {
+            "clips": [
+              {
+                "id": "story_clip_1",
+                "sourceAssetId": "demo_asset_4",
+                "sourceIn": 0,
+                "sourceOut": 3.5,
+                "duration": 3.5,
+                "order": 0,
+                "speed": 1,
+                "volume": 1,
+                "transitionIn": {
+                  "type": "cut",
+                  "duration": 0.6
+                }
+              },
+              {
+                "id": "story_clip_2",
+                "sourceAssetId": "demo_asset_1",
+                "sourceIn": 0,
+                "sourceOut": 3.5,
+                "duration": 3.5,
+                "order": 1,
+                "speed": 1,
+                "volume": 1,
+                "transitionIn": {
+                  "type": "dissolve",
+                  "duration": 0.6
+                }
+              },
+              {
+                "id": "story_clip_3",
+                "sourceAssetId": "demo_asset_2",
+                "sourceIn": 0,
+                "sourceOut": 3.5,
+                "duration": 3.5,
+                "order": 2,
+                "speed": 1,
+                "volume": 1,
+                "transitionIn": {
+                  "type": "dissolve",
+                  "duration": 0.6
+                }
+              },
+              {
+                "id": "story_clip_4",
+                "sourceAssetId": "demo_asset_3",
+                "sourceIn": 0,
+                "sourceOut": 3.5,
+                "duration": 3.5,
+                "order": 3,
+                "speed": 1,
+                "volume": 1,
+                "transitionIn": {
+                  "type": "dissolve",
+                  "duration": 0.6
+                }
+              }
+            ],
+            "audioTracks": [
+              {
+                "id": "audio-ambient-cinematic",
+                "type": "music",
+                "title": "Ethereal Horizons (Cinematic Ambient)",
+                "sourceUrl": "/audio/ambient-cinematic.mp3",
+                "startTime": 0,
+                "duration": 14,
+                "volume": 0.55,
+                "ducking": true
+              }
+            ],
+            "captions": [
+              {
+                "id": "cap_en_1",
+                "start": 0.8,
+                "end": 4,
+                "text": "Every great journey begins with a moment.",
+                "style": "cinema",
+                "language": "en"
+              },
+              {
+                "id": "cap_en_2",
+                "start": 4.5,
+                "end": 8.5,
+                "text": "Preserving memories that truly endure.",
+                "style": "cinema",
+                "language": "en"
+              }
+            ]
+          },
+          "exportProfile": "standard",
+          "updatedAt": "2026-10-26T00:59:26.421Z"
+        }
+      }
+    ]
+  }
+}
